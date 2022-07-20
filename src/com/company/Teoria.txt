@@ -1,0 +1,26 @@
+Podstawowy If
+
+if (condition){
+statement(s)        =>>statement(s) mogą być podane proste warunki np. s>2, metody,bądz bardziej skomplikowane warunki.
+};
+
+
+
+Nested(zagnieżdzony) if-if
+
+if (condition_1){
+statement_1;
+    if(condition_2){        =>> w tym przypadku sprawdzamy 2 warunki
+    statement_2
+    }
+};
+
+
+if-else        =>> jeśli nie zostanie spełniony statement z if to idziemy do else który napewno zostanie spełniony
+
+if (condition){
+statement
+} else {
+statement
+}
+
