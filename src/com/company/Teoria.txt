@@ -10,7 +10,8 @@ Nested(zagnieżdzony) if-if
 
 if (condition_1){
 statement_1;
-    if(condition_2){        =>> w tym przypadku sprawdzamy 2 warunki
+    if(condition_2){        =>> w tym przypadku sprawdzamy 2 warunki pokolei od 1 do 2, w momencie
+                                nie spełnienia warunków z 1 if nie przejdziemy do 2 if,
     statement_2
     }
 };
